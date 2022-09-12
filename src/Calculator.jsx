@@ -8,15 +8,15 @@ const Calculator = () => {
   return (
     <>
       <section className="h-screen flex items-center justify-center bg-gradient-to-bl from-gray-900 to-gray-600 bg-gradient-to-r">
-        <div className="glass w-[400px] p-4">
+        <div className="bg-white rounded-md shadow-2xl w-[400px] p-4">
           <h2 className="text-2xl font-bold">ROI Calculator</h2>
           <div className="">
             <span className={style.span}>
               <h3 className="text-sm font-semibold text-gray-600">CAKE</h3>
-              <div class="flex justify-center">
-                <div class="form-check form-switch">
+              <div className="flex justify-center">
+                <div className="form-check form-switch">
                   <input
-                    class={style.switch}
+                    className={style.switch}
                     type="checkbox"
                     role="switch"
                     id="flexSwitchCheckChecked"
@@ -59,10 +59,10 @@ const Calculator = () => {
             <div className="my-5 space-y-3">
               <span className="flex justify-between">
                 <h2 className="font-semibold">Enable Accelerated APY</h2>
-                <div class="flex justify-center">
-                  <div class="form-check form-switch">
+                <div className="flex justify-center">
+                  <div className="form-check form-switch">
                     <input
-                      class={style.switch}
+                      className={style.switch}
                       type="checkbox"
                       role="switch"
                       id="flexSwitchCheckChecked"
